@@ -44,6 +44,7 @@
   background-color: #ff0900;
   -webkit-transition: .3s;
   transition: .3s;
+  text-decoration: none;
 }
 
 .btn-red:hover {
