@@ -1,0 +1,97 @@
+// ------------------------ //
+// ---- Logo Style -------- //
+// ------------------------ //
+.navbar-logo {
+  height: 4rem;
+  display: inline-flex;
+  align-items: center;
+  img {
+    max-height: 100%;
+    width: auto;
+  }
+}
+// ------------------------ //
+
+// ------------------------ //
+// ---- Navbar First ------ //
+// ------------------------ //
+.navbar-first {
+  background-color: #008dd2 !important;
+  color: #fff !important;
+  .btn-link {
+    color: #fff !important;
+    transition: 0.3s;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+// ------------------------ //
+// ------------------------ //
+// ---- Second Navbar ----- //
+// ------------------------ //
+.navbar-second {
+  padding-top: 0;
+  padding-bottom: 0;
+  .nav-link {
+    color: #363535 !important;
+    padding: 1.4rem 1.4rem !important;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+    &:hover {
+      color: #008dd2 !important;
+      background: #008dd23b;
+    }
+    &.active {
+      color: #008dd2 !important;
+      background: #008dd23b;
+    }
+  }
+}
+// ------------------------ //
+// ------------------------ //
+// ---- Home Page Css ----- //
+// ------------------------ //
+.home-section {
+  .home-img-box {
+    height: 63rem;
+    display: flex;
+    overflow: hidden;
+    align-items: start;
+    justify-content: center;
+    img {
+      max-height: 100%;
+      height: 100%;
+      width: auto;
+    }
+  }
+  .home-sm-img {
+    height: 279px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    img {
+      max-height: 100%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .home-heading{
+    padding: 7rem 0;
+    background: #292929;
+    color: #fff;
+  }
+  .pos-center{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .desc{
+    p{
+      line-height: 2rem;
+    }
+  }
+}
+// ------------------------ //
